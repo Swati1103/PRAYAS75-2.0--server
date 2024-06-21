@@ -10,7 +10,7 @@ const errorMiddleware = require("./middlewares/error-middleware");
 
 //let's tackle cors
 const corsOptions = {
-    origin: "https://prayas75-2-0-client.onrender.com",
+    origin: ["https://prayas75-2-0-client.onrender.com" , "http://localhost:5173"],
     methods: "GET, POST, PUT, DELETE, PATCH, HEAD",
     credentials: true,
 };
